@@ -1,0 +1,156 @@
+[17/12/2018 23:04] ERROR red load_cogs 581: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+Traceback (most recent call last):
+  File "red.py", line 578, in load_cogs
+    owner_cog._load_cog(extension)
+  File "E:\Red-DiscordBots\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "E:\Red-DiscordBots\Red-DiscordBot\cogs\audio.py", line 2561, in setup
+    "".format(msg))
+RuntimeError: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+
+[17/12/2018 23:04] ERROR red <module> 624: Traceback (most recent call last):
+  File "lib\discord\http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "lib\discord\http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: UNAUTHORIZED (status code: 401): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 622, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\futures.py", line 294, in result
+    raise self._exception
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\tasks.py", line 240, in _step
+    result = coro.send(None)
+  File "red.py", line 607, in main
+    bot=not bot.settings.self_bot)
+  File "lib\discord\client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "lib\discord\client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "lib\discord\http.py", line 262, in static_login
+    raise LoginFailure('Improper token has been passed.') from e
+discord.errors.LoginFailure: Improper token has been passed.
+
+[17/12/2018 23:05] ERROR red <module> 624: Traceback (most recent call last):
+  File "lib\discord\http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "lib\discord\http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: UNAUTHORIZED (status code: 401): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 622, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\futures.py", line 294, in result
+    raise self._exception
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\tasks.py", line 240, in _step
+    result = coro.send(None)
+  File "red.py", line 607, in main
+    bot=not bot.settings.self_bot)
+  File "lib\discord\client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "lib\discord\client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "lib\discord\http.py", line 262, in static_login
+    raise LoginFailure('Improper token has been passed.') from e
+discord.errors.LoginFailure: Improper token has been passed.
+
+[17/12/2018 23:05] ERROR red <module> 624: Traceback (most recent call last):
+  File "lib\discord\http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "lib\discord\http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: UNAUTHORIZED (status code: 401): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 622, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\futures.py", line 294, in result
+    raise self._exception
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\tasks.py", line 240, in _step
+    result = coro.send(None)
+  File "red.py", line 607, in main
+    bot=not bot.settings.self_bot)
+  File "lib\discord\client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "lib\discord\client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "lib\discord\http.py", line 262, in static_login
+    raise LoginFailure('Improper token has been passed.') from e
+discord.errors.LoginFailure: Improper token has been passed.
+
+[17/12/2018 23:05] ERROR red <module> 624: Traceback (most recent call last):
+  File "lib\discord\http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "lib\discord\http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: UNAUTHORIZED (status code: 401): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 622, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\futures.py", line 294, in result
+    raise self._exception
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\tasks.py", line 240, in _step
+    result = coro.send(None)
+  File "red.py", line 607, in main
+    bot=not bot.settings.self_bot)
+  File "lib\discord\client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "lib\discord\client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "lib\discord\http.py", line 262, in static_login
+    raise LoginFailure('Improper token has been passed.') from e
+discord.errors.LoginFailure: Improper token has been passed.
+
+[17/12/2018 23:06] ERROR red <module> 624: Traceback (most recent call last):
+  File "lib\discord\http.py", line 258, in static_login
+    data = yield from self.request(Route('GET', '/users/@me'))
+  File "lib\discord\http.py", line 200, in request
+    raise HTTPException(r, data)
+discord.errors.HTTPException: UNAUTHORIZED (status code: 401): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 622, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\base_events.py", line 467, in run_until_complete
+    return future.result()
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\futures.py", line 294, in result
+    raise self._exception
+  File "C:\Users\sony\AppData\Local\Programs\Python\Python35\lib\asyncio\tasks.py", line 240, in _step
+    result = coro.send(None)
+  File "red.py", line 607, in main
+    bot=not bot.settings.self_bot)
+  File "lib\discord\client.py", line 416, in login
+    yield from getattr(self, '_login_' + str(n))(*args, **kwargs)
+  File "lib\discord\client.py", line 346, in _login_1
+    data = yield from self.http.static_login(token, bot=is_bot)
+  File "lib\discord\http.py", line 262, in static_login
+    raise LoginFailure('Improper token has been passed.') from e
+discord.errors.LoginFailure: Improper token has been passed.
+

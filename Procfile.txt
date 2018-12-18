@@ -1,1 +1,1 @@
-worker:node start_red
+worker: node start_red
