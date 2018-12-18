@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lithium", "Lithium\Lithium.csproj", "{3A7FB68F-853C-49FD-AC95-E04795A83EA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A7FB68F-853C-49FD-AC95-E04795A83EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7FB68F-853C-49FD-AC95-E04795A83EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7FB68F-853C-49FD-AC95-E04795A83EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7FB68F-853C-49FD-AC95-E04795A83EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB1802C4-B110-4D8B-99DE-340353FD4984}
+	EndGlobalSection
+EndGlobal
